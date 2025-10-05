@@ -12,3 +12,14 @@ pip install -r requirements.txt
 - notebooks/Projet_ML.ipynb
 - assets/ (screenshots)
 - reports/ (PDF)
+
+![Dashboard](assets/dashboard_overview.png)
+
+
+**Run demo:**
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run src/app/app.py
+

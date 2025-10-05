@@ -23,3 +23,9 @@ python -m venv .venv
 pip install -r requirements.txt
 streamlit run src/app/app.py
 
+
+**Run demo (Windows/PowerShell):**
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+streamlit run src/app/app.py
+
